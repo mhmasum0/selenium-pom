@@ -10,7 +10,14 @@
 
     <test name="Regression1">
         <classes>
-            <class name="com.mahmud.AlertBoxTestCase"/>
+            <class name="com.mahmud.AlertBoxTestCase">
+                <methods>
+                    <include name="alertBoxTest"/>
+                    <include name="setup"/>
+                    <include name="failedTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
