@@ -12,7 +12,6 @@
         <classes>
             <class name="com.mahmud.AlertBoxTestCase">
                 <methods>
-                    <include name="alertBoxTest"/>
                     <include name="setup"/>
                     <include name="failedTest"/>
                     <include name="tearDown"/>
